@@ -1,0 +1,11 @@
+prefix=D:/Other_proj/install_path/bzip2
+exec_prefix=D:/Other_proj/install_path/bzip2
+bindir=D:/Other_proj/install_path/bzip2/bin
+libdir=D:/Other_proj/install_path/bzip2/lib
+includedir=D:/Other_proj/install_path/bzip2/include
+
+Name: bzip2
+Description: Lossless, block-sorting data compression
+Version: 1.1.0
+Libs: -L${libdir} -lbz2
+Cflags: -I${includedir}
